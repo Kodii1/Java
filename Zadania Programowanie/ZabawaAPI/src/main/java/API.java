@@ -48,7 +48,7 @@ public class API {
     public void getInformation(){
         System.out.println("Last update: " + jsonObject.get("last_updated"));
         System.out.println("Temperature (C): " + jsonObject.get("temp_c"));
-        System.out.println("Sensed temperature (C): " + jsonObject.get("feelslike_c"));
+        System.out.println("Sensed temperature (C): " + jsonObject.get("feelsLike_c"));
         System.out.println("Wind speed (km/h): " + jsonObject.get("wind_kph"));
         System.out.println("Wind direction: " + jsonObject.get("wind_dir"));
     }
