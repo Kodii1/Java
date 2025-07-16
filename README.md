@@ -1,1 +1,1 @@
-Projects in Java
+University Exercises
